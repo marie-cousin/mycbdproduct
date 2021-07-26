@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("./components/container.css");
+
+@import url("./components/avatar.css");
+
+@import url("./components/button.css");
+
+@import url("./components/banner.css");
+
+@import url("./components/card.css");`
+
+body {
+	font-family: 'Lora', weight: 600;
+	font-size: 14px;
+	margin: 0px auto;
+}
+ 
+h1 {
+	font-family: 'Roboto',sans-serif, weight: 700;
+	font-size: 30px;
+}
+
+h2,h3 {
+	font-family: 'Roboto',sans-serif, weight: 300;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #161616;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #5B8A72;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+i {
+	font-size: 25px;
+}
+
+#footer {
+	margin-top: 100px;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
